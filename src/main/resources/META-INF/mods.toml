@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="asw_fa_fix"
+version="1.0.0"
+displayName="ASW + Fresh Animations Fix"
+description="Stops Adaptive Skin Weathering's first-person arm layer from glitching with Fresh Animations Player Extension (EMF/ETF)."
+[[dependencies.asw_fa_fix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.asw_fa_fix]]
+modId="skin_weathering"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="CLIENT"

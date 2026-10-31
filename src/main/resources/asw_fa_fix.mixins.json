@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.fix.aswfafix",
+  "refmap": "asw_fa_fix.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "client": ["PlayerRendererFixMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
